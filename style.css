@@ -4,7 +4,7 @@ html {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
-    color: whitesmoke;   
+    color: whitesmoke;
 }
 
 h1 {
@@ -46,6 +46,9 @@ nav {
 
 nav h5:hover {
     color: #ab7e02;
+}
+h5 {
+    padding-left: 100px;
 }
 
 
