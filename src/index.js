@@ -81,6 +81,7 @@ const enterHighScore = () => {
     game['high_score'] = e.target['score-input'].value
 
     highScores[document.getElementById('detail-title').textContent] = e.target['score-input'].value
+
     gameRender(game)
     console.log(highScores)
     form.reset()
